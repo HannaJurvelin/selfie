@@ -9,7 +9,7 @@ body {
 
 .container {
   position: relative;
-  margin: auto;
+  margin: 20px 100px;
   display: block;
   width: 600px;
   height: 600px;
@@ -112,7 +112,7 @@ body {
   background: #f4bc7d;
   width: 7%;
   height: 10%;
-  left: 47%;
+  left: 46%;
   top: 52%;
   border-radius: 40px;
   z-index: 4;
@@ -152,6 +152,28 @@ body {
   z-index: 4;
 }
 
+.cheekLeft {
+  position: absolute;
+  background: #fcc3b4;
+  width: 20%;
+  height: 20%;
+  left: 12%;
+  top: 52%;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.cheekRight {
+  position: absolute;
+  background: #fcc3b4;
+  width: 20%;
+  height: 20%;
+  right: 12%;
+  top: 52%;
+  border-radius: 50%;
+  z-index: 4;
+}
+
 .hairBack {
   position: absolute;
   width: 54%;
@@ -169,9 +191,9 @@ body {
   border: 5px solid #7c6d60;
   width: 31%;
   height: 25%;
-  top: 30%;
+  top: 33%;
   left: 12%;
-  border-radius: 20px 50px 50px 50px;
+  border-radius: 40px 100px 100px 100px;
   z-index: 4;
 }
 
@@ -180,9 +202,9 @@ body {
   border: 5px solid #7c6d60;
   width: 31%;
   height: 25%;
-  top: 30%;
+  top: 33%;
   right: 12%;
-  border-radius: 50px 20px 50px 50px;
+  border-radius: 100px 40px 100px 100px;
   z-index: 4;
 }
 
@@ -191,7 +213,7 @@ body {
   border-bottom: 5px solid #7c6d60;
   width: 8%;
   height: 10%;
-  top: 34%;
+  top: 36%;
   right: 46%;
   z-index: 4;
 }
