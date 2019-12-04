@@ -21,9 +21,10 @@ body {
   top: 16.5%;
   left: 25%;
   width: 50%;
-  height: 75%;
+  height: 72%;
   background: #fcd4a4;
   border-radius: 50%;
+  z-index: 2;
 }
 
 .earLeft{
@@ -31,10 +32,10 @@ body {
   width: 25%;
   height: 25%;
   left: -10%;
-  top: 30%;
+  top: 38%;
   background: #fcd4a4;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .earRight{
@@ -42,10 +43,10 @@ body {
   width: 25%;
   height: 25%;
   right: -10%;
-  top: 30%;
+  top: 38%;
   background: #fcd4a4;
   border-radius: 50%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .innerEarLeft {
@@ -56,6 +57,7 @@ body {
   top: 10%;
   left: 10%;
   background: #f4bc7d;
+  z-index: 2;
 }
 
 .innerEarRight {
@@ -66,6 +68,7 @@ body {
   top: 10%;
   right: 10%;
   background: #f4bc7d;
+  z-index: 2;
 }
 
 .eyeLeft {
@@ -73,10 +76,10 @@ body {
   background: #5f86c4;
   width: 10%;
   height: 13%;
-  top: 30%;
+  top: 38%;
   left: 28%;
   border-radius: 50%;
-  z-index: 3;
+  z-index: 2;
 }
 
 .eyeRight {
@@ -84,10 +87,10 @@ body {
   background: #5f86c4;
   width: 10%;
   height: 13%;
-  top: 30%;
+  top: 38%;
   right: 28%;
   border-radius: 50%;
-  z-index: 3;
+  z-index: 2;
 }
 
 .pupil{
@@ -98,5 +101,62 @@ body {
   right: 18%;
   border-radius: 50%;
   background: #fff7f0;
+  z-index: 2;
+}
+
+.nose {
+  position: absolute;
+  background: #f4bc7d;
+  width: 8%;
+  height: 10%;
+  left: 46%;
+  top: 50%;
+  border-radius: 40px;
+  z-index: 2;
+}
+
+.mouth {
+  position: absolute;
+  width: 25%;
+  height: 12%;
+  top: 65%;
+  left: 38%;
+  background-color: #efaf9e;
+  border-radius: 20px 20px 180px 180px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.teeth {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  left: 20%;
+  top: -30%;
+  background-color: #fff7f0;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.hairFront {
+  position: absolute;
+  width: 64%;
+  height: 40%;
+  left: 35%;
+  top: -2%;
+  background-color: #dda862;
+  border-radius: 0 90%;
+  z-index: 2;
+}
+
+.hairBack {
+  position: absolute;
+  width: 54%;
+  height: 110%;
+  left: 23%;
+  top: 10%;
+  background-color: #dda862;
+  border-radius: 150px;
+  z-index: 1;
 }
   
