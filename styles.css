@@ -123,7 +123,7 @@ body {
   width: 25%;
   height: 12%;
   top: 67%;
-  left: 38%;
+  left: 37%;
   background-color: #efaf9e;
   border-radius: 30px 30px 180px 180px;
   overflow: hidden;
@@ -194,7 +194,32 @@ body {
   top: 33%;
   left: 12%;
   border-radius: 40px 100px 100px 100px;
-  z-index: 4;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.reflectionLeft { 
+  position: absolute;
+  background-color: #fff; 
+  opacity: 0.4; 
+  width: 30%;
+  height: 140%;
+  top: -30%;
+  left: 15%;
+  border-radius: 10px 10px 10px 10px;
+  transform: rotate(45deg);
+}
+
+.reflectionLeftSecond {
+  position: absolute;
+  background-color: #fff; 
+  opacity: 0.4; 
+  width: 20%;
+  height: 140%;
+  top: -10%;
+  left: 70%;
+  border-radius: 10px 10px 10px 10px;
+  transform: rotate(45deg);
 }
 
 .glassesRight {
@@ -205,7 +230,32 @@ body {
   top: 33%;
   right: 12%;
   border-radius: 100px 40px 100px 100px;
-  z-index: 4;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.reflectionRight { 
+  position: absolute;
+  background-color: #fff; 
+  opacity: 0.4; 
+  width: 30%;
+  height: 140%;
+  top: -35%;
+  left: 20%;
+  border-radius: 10px 10px 10px 10px;
+  transform: rotate(45deg);
+}
+
+.reflectionRightSecond {
+  position: absolute;
+  background-color: #fff; 
+  opacity: 0.4; 
+  width: 20%;
+  height: 140%;
+  top: -10%;
+  left: 70%;
+  border-radius: 10px 10px 10px 10px;
+  transform: rotate(45deg);
 }
 
 .glassesMiddle {
