@@ -1,2 +1,2 @@
 # selfie
-CSS Illustration
+CSS Illustration and animation.
